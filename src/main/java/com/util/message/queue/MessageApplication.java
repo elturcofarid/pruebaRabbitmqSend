@@ -1,13 +1,13 @@
-package co.onlysystems.consulta;
+package com.util.message.queue;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JuzgadosLaManoApplication {
+public class MessageApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(JuzgadosLaManoApplication.class, args);
+		SpringApplication.run(MessageApplication.class, args);
 	}
 
 }
